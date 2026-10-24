@@ -31,26 +31,6 @@ Requires macOS 14 or later. The phone needs a recent browser and the same Wi-Fi 
 
 More detail in [SECURITY.md](SECURITY.md) and [PRIVACY.md](PRIVACY.md).
 
-## Build from source
-
-You need Xcode 26 (Swift 6.2) and Node 22.
-
-```sh
-scripts/build.sh            # builds web/, the Swift app, and build/Remoto.app
-open build/Remoto.app
-```
-
-Other useful commands:
-
-```sh
-swift test                  # core and input engine tests
-cd web && npm test          # phone client tests
-swift run remoto-dev --web web/dist --approve   # the server in a terminal, input only logged
-node tools/ws-e2e.mjs       # protocol end to end tests against remoto-dev
-```
-
-`build.sh` signs with your "Apple Development" identity if you have one. With ad-hoc signing macOS forgets the Accessibility permission on every rebuild. `scripts/package.sh` makes the notarized DMG and needs a Developer ID.
-
 ## Project layout
 
 | Path | What it is |
