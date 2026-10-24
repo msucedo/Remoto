@@ -92,6 +92,9 @@ async function main() {
   await s('Log.enable');
   await s('Page.enable');
   await s('Emulation.setDeviceMetricsOverride', { width: W, height: H, deviceScaleFactor: 2, mobile: true });
+  // Headless Chrome ignores --lang for navigator.languages; the Accept-Language override does not.
+  const ua = (await s('Browser.getVersion')).userAgent;
+  await s('Emulation.setUserAgentOverride', { userAgent: ua, acceptLanguage: flag('es') ? 'es-MX,es' : 'en-US,en' });
   await s('Emulation.setTouchEmulationEnabled', { enabled: true, maxTouchPoints: 5 });
   await s('Emulation.setEmulatedMedia', { features: [{ name: 'prefers-color-scheme', value: flag('dark') ? 'dark' : 'light' }] });
 

@@ -114,11 +114,11 @@
 "Phones can't control this Mac until you allow %@ in Accessibility settings." = "Phones can't control this Mac until you allow %@ in Accessibility settings.";
 "Play, pause, change volume and switch apps." = "Play, pause, change volume and switch apps.";
 "Port" = "Port";
-"Port %lld was in use, so %@ is using port %lld." = "Port %lld was in use, so %@ is using port %lld.";
-"Port %lld was in use, so another one was picked." = "Port %lld was in use, so another one was picked.";
+"Port %@ was in use, so %@ is using port %@." = "Port %@ was in use, so %@ is using port %@.";
+"Port %@ was in use, so another one was picked." = "Port %@ was in use, so another one was picked.";
 "QR address" = "QR address";
 "Quit" = "Quit";
-"Ready on port %lld" = "Ready on port %lld";
+"Ready on port %@" = "Ready on port %@";
 "Refreshing…" = "Refreshing…";
 "Remembered Phones" = "Remembered Phones";
 "Remove %@" = "Remove %@";

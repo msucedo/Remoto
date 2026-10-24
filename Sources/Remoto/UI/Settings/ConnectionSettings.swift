@@ -37,7 +37,7 @@ struct ConnectionSettings: View {
                         Text("Listening on \(Int(running))").monospacedDigit()
                     }
                     if model.preferredPortTaken {
-                        Text("Port \(prefs.port) was in use, so another one was picked.")
+                        Text("Port \(String(prefs.port)) was in use, so another one was picked.")
                             .font(.caption)
                             .foregroundStyle(.secondary)
                     }

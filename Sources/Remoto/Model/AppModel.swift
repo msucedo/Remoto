@@ -233,7 +233,7 @@ final class AppModel {
             preferredPortTaken = taken
             if taken {
                 notice = Notice(
-                    text: String(localized: "Port \(prefs.port) was in use, so \(AppInfo.name) is using port \(Int(port))."))
+                    text: String(localized: "Port \(String(prefs.port)) was in use, so \(AppInfo.name) is using port \(String(port))."))
             }
             refreshPairing()
             refreshDevices()
@@ -493,7 +493,7 @@ final class AppModel {
             if !accessibilityTrusted { return (String(localized: "Waiting for Accessibility permission"), .orange) }
             if connected.count == 1 { return (String(localized: "Connected to \(connected[0].name)"), .green) }
             if connected.count > 1 { return (String(localized: "\(connected.count) phones connected"), .green) }
-            return (String(localized: "Ready on port \(Int(port))"), .green)
+            return (String(localized: "Ready on port \(String(port))"), .green)
         }
     }
 
