@@ -1,6 +1,14 @@
 # Remoto
 
-Remoto via your iPhone allows you to use it as a trackpad, keyboard, button deck, media remote and dictation mic for your Mac. It runs in the menu bar and talks to your phone over your local network. There is nothing to install on the phone: it opens a web page served by the Mac.
+Control your Mac from your phone. Remoto gives you a trackpad, a keyboard, a deck of quick-action buttons, media controls and app shortcuts, all from the phone in your hand.
+
+Getting started is simple:
+
+1. Open Remoto on your Mac.
+2. Scan the QR code with your phone.
+3. Your phone opens a page served by your Mac over your local network, and it becomes your trackpad. No app to install on the phone.
+
+Works on macOS 14 (Sonoma) or later, with any iPhone or Android phone.
 
 ## What it does
 
