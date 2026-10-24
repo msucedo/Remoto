@@ -1,0 +1,11 @@
+/* Textos de privacidad de Info.plist en español. */
+
+"NSAppleEventsUsageDescription" = "Remoto lo usa para ejecutar las acciones de Mac que añades a la botonera del teléfono, como abrir apps o controlar la música.";
+"NSSpeechRecognitionUsageDescription" = "Remoto convierte en texto en tu Mac lo que dices al micrófono del teléfono. El reconocimiento ocurre en esta Mac, nunca en un servidor.";
+"NSLocalNetworkUsageDescription" = "Remoto se comunica con tu teléfono por la red local. Nada sale de tu red.";
+"NSRemovableVolumesUsageDescription" = "Remoto muestra las apps de las carpetas que añades, también de carpetas en discos externos.";
+"NSNetworkVolumesUsageDescription" = "Remoto muestra las apps de las carpetas que añades, también de carpetas en discos de red.";
+"NSDocumentsFolderUsageDescription" = "Remoto muestra las apps de las carpetas que añades, también de carpetas en Documentos.";
+"NSDesktopFolderUsageDescription" = "Remoto muestra las apps de las carpetas que añades, también de carpetas en el Escritorio.";
+"NSDownloadsFolderUsageDescription" = "Remoto muestra las apps de las carpetas que añades, también de carpetas en Descargas.";
+"NSHumanReadableCopyright" = "Copyright © 2026 Mario Saucedo. Licencia MIT.";

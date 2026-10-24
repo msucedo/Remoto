@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>__PRODUCT_NAME__</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>__BUNDLE_ID__</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>__PRODUCT_NAME__</string>
+	<key>CFBundleDisplayName</key>
+	<string>__PRODUCT_NAME__</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>__VERSION__</string>
+	<key>CFBundleVersion</key>
+	<string>__BUILD_NUMBER__</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+		<string>es</string>
+	</array>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>__MIN_MACOS__</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2026 Mario Saucedo. MIT License.</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Remoto uses this to run the Mac actions you add to your phone's deck, like opening apps or controlling music.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Remoto turns what you say into your phone's microphone into text on your Mac. Recognition runs on this Mac, never on a server.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Remoto talks to your phone over your local network. Nothing leaves your network.</string>
+	<key>NSRemovableVolumesUsageDescription</key>
+	<string>Remoto lists the apps in the folders you add, including folders on external drives.</string>
+	<key>NSNetworkVolumesUsageDescription</key>
+	<string>Remoto lists the apps in the folders you add, including folders on network drives.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>Remoto lists the apps in the folders you add, including folders in Documents.</string>
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>Remoto lists the apps in the folders you add, including folders on the Desktop.</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>Remoto lists the apps in the folders you add, including folders in Downloads.</string>
+</dict>
+</plist>
